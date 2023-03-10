@@ -2,8 +2,7 @@
     // Create a dictionary to keep track of character frequencies
     var charCount = [Character: Int]()
 
-    // Iterate over each character in the input var
-   string
+    // Iterate over each character in the input string
     for char in input {
         // If the character is already in the dictionary, increment its count
         if let count = charCount[char] {
@@ -27,3 +26,4 @@
 
     return mostFrequentChar
 }
+     
